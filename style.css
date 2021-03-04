@@ -71,4 +71,27 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+  /*media queries for responsiveness*/
+  @media screen and (max-width: 768px), screen and (max-width: 575px) {
+    textarea {
+      min-height: 85px;
+      border: 0;
+    }
+    
+    .row {
+      margin-top: 20px;
+      height: auto;
+    }
+  
+    .saveBtn {
+      border-radius: 0.25rem;
+      height: 50px;
+      border: 0;
+    }
+    .hour {
+      padding-right: 17%;
+    }
+    
+  }
   
