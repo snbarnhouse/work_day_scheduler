@@ -2,9 +2,11 @@
 
 # 05 Third-Party APIs: Work Day Scheduler
 
-Work day scheduler using HTML, CSS, Javascript, and Moment.js.
+Work day scheduler using HTML, CSS, Javascript, and Moment.js. User has option to add event and save to local storage. Also, different color blocks represents past, present, and future times.
 
 https://snbarnhouse.github.io/work_day_scheduler/
+
+![Scheduler](https://user-images.githubusercontent.com/77131387/110370091-3f54ec80-8019-11eb-84a4-2315132c606a.png)
 
 ## Your Task
 

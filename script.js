@@ -10,7 +10,6 @@ $(document).ready(function () {
         var time = $(this).parent().attr("id");
         //save to local storage
         // console.log("TEXT AND TIME: ",text,time);
-        //
         localStorage.setItem(time,text);
     })
 
@@ -19,8 +18,7 @@ $(document).ready(function () {
             console.log(presentTime) // getting an actual number
             //loop
             $(".time-block").each(function () {
-                // var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
-                
+
                 var timeBlock = parseInt($(this).attr("id").slice(0,-2));
                 console.log(timeBlock) // 
             //to add appropriate css styles to past, present, and future times
